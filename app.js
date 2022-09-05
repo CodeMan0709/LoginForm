@@ -27,7 +27,7 @@ app.post("/user/signup",function(req,res){
             return;
         }
     });
-    res.redirect("/login.html")
+    res.redirect("/signup.html")
 });
 app.listen(3000, function () {
     console.log("Server started on port 3000.");
